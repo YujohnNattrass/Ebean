@@ -1,0 +1,237 @@
+/* ------ FONTS -------*/
+@font-face {
+font-family: 'Gotham Black';
+font-style: normal;
+font-weight: normal;
+src: local('Gotham Black'), url('../fonts/Gotham Black Regular.woff') format('woff');
+}
+
+@font-face {
+font-family: 'Gotham Book';
+font-style: normal;
+font-weight: normal;
+src: local('Gotham Book'), url('../fonts/GOTHAMBOOK.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'Gotham Narrow';
+    src: url('../fonts/trade_gothic_condensed_no._18-webfont.woff2') format('woff2'),
+         url('../fonts/trade_gothic_condensed_no._18-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+/* ------ FONTS END -------*/
+/* ------ HEADER --------*/
+
+.boxSize{
+	background-color: rgba(0,0,0, 0.5);
+	z-index:2;
+}
+/* ------ HEADER END -------*/
+
+
+h3 {
+	text-transform: uppercase;
+	font-size: 1.65rem;
+}
+
+/* ------ FOOTER ------- */
+
+.footer{
+	width: 100%;
+	background-color: #009ca6;
+	padding: 60px 0px;
+}
+
+.footerH{
+	font-size:0.85;
+	color: #edf7f7;
+}
+
+
+.footerP{
+	font-size: 0.85rem;
+	color: #edf7f7;
+	margin-bottom: 0.25rem;
+}
+
+.socialMedia{
+	font-size: 1.5rem;
+	color: #edf7f7;
+}
+
+footer a:hover {
+	color:#63ced1;
+}
+/* ------ FOOTER END ------- */
+
+body {
+	font-family: 'Gotham Book';
+}
+
+.indent {
+	text-indent: 2rem;
+}
+
+.jumHeader{
+	font-family: 'Gotham Black';
+	font-size: 4rem;
+
+}
+
+.jumBody {
+	font-size: 1.5rem;
+}
+
+p {
+	line-height: 1.8rem;
+	font-family: "Gotham Narrow";
+}
+#mainJumbo {
+
+	background-image: 
+    linear-gradient(
+      rgba(0, 0, 0, 0.3),
+      rgba(0, 0, 0, 0.3)
+    ),
+    url("../imgs/pancafe.jpg");
+	background-size: cover;
+    position: relative;
+	background-position: 50% 25%;
+	height:100%;
+	width:100%;
+    color: #e6ebf4;
+    text-shadow: 1px 1px 2px black;
+    padding-top: 15%;
+    padding-bottom: 15%;
+}
+
+#menuJumbo {
+
+	background-image: 
+    linear-gradient(
+      rgba(0, 0, 0, 0.3),
+      rgba(0, 0, 0, 0.3)
+    ),
+    url("../imgs/ham.jpg");
+	background-size: cover;
+    position: relative;
+	background-position: center;
+	height:100%;
+	width:100%;
+    color: #e6ebf4;
+    text-shadow: 1px 1px 2px black;
+    padding-top: 15%;
+    padding-bottom: 15%;
+}
+
+#catJumbo {
+
+	background-image: 
+    linear-gradient(
+      rgba(0, 0, 0, 0.3),
+      rgba(0, 0, 0, 0.3)
+    ),
+    url("../imgs/scones.jpg");
+	background-size: cover;
+    position: relative;
+	background-position: center;
+	height:100%;
+	width:100%;
+    color: #e6ebf4;
+    text-shadow: 1px 1px 2px black;
+    padding-top: 15%;
+    padding-bottom: 15%;
+}
+
+#loveJumbo {
+
+	background-image: 
+    linear-gradient(
+      rgba(0, 0, 0, 0.3),
+      rgba(0, 0, 0, 0.3)
+    ),
+    url("../imgs/jumboLove.jpg");
+	background-size: cover;
+    position: relative;
+	background-position: center;
+	height:100%;
+	width:100%;
+    color: #e6ebf4;
+    text-shadow: 1px 1px 2px black;
+    padding-top: 15%;
+    padding-bottom: 15%;
+}
+
+textarea {
+	height: 450px;
+}
+
+.resize{
+    width:175px; /* you can use % */
+    height: auto;
+
+}
+p a {
+	color: #009ca9 ;
+}
+
+p a:hover {
+	color:#63ced1;
+	text-decoration: none;
+}
+
+.textColor {
+	color: #413c3c;
+}
+
+.google-maps {
+    overflow:hidden;
+    padding-bottom:375px;
+    position:relative;
+    height:0;
+    }
+    .google-maps iframe {
+    left:0;
+    top:0;
+    height:100%;
+    width:100%;
+    position:absolute;
+    }
+
+
+/* MENU */
+.foodItem {
+    color: #e26826;
+    font-weight: bold;
+}
+.drinkSize{
+    font-size: 0.8rem;
+    font-weight: bold;
+}
+.tabhead{
+    font-family: 'Gotham Book';
+    letter-spacing: 0.15rem;
+    text-transform: uppercase;
+}
+
+.tabSize{
+    font-size: 1.3rem;
+}
+
+ul.nav-pills a.nav-link.active{
+    color: white;
+    background-image: url("../imgs/Everbean_teal_pattern3.jpg");
+    background-size: contain;
+}
+.nav-pills a {
+    color: #649faf;
+    font-weight: 700;
+    border: none;
+}
+.nav-pills a:hover{
+    color: #ff5e00;
+    text-decoration:none;
+}
+/* Closed MENU */
