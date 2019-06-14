@@ -164,6 +164,7 @@ p {
     padding-bottom: 15%;
 }
 
+
 textarea {
 	height: 450px;
 }
@@ -218,6 +219,15 @@ p a:hover {
 
 .tabSize{
     font-size: 1.3rem;
+}
+.btn {
+    color: white;
+    background-image: url("../imgs/Everbean_teal_pattern3.jpg");
+    background-size: contain;
+}
+
+.btn:hover {
+	color: #63ced1;
 }
 
 ul.nav-pills a.nav-link.active{
