@@ -244,4 +244,7 @@ ul.nav-pills a.nav-link.active{
     color: #ff5e00;
     text-decoration:none;
 }
+.menu_link {
+	font-size: 1.25rem;
+}
 /* Closed MENU */
