@@ -66,6 +66,17 @@ footer a:hover {
 }
 /* ------ FOOTER END ------- */
 
+/* ALERT START */
+.hotCocoFest {
+	color: #009ca6;
+	font-size: 1.3rem;
+}
+
+.hotCocoFest:hover {
+	color: #63ced1;
+	text-decoration: none;
+}
+/* ALERT FINIST */
 body {
 	font-family: 'Gotham Book';
 }
