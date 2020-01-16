@@ -63,13 +63,20 @@ h3 {
 
 footer a:hover {
 	color:#63ced1;
+	
 }
 /* ------ FOOTER END ------- */
 
 /* ALERT START */
+.hotCocoBg {
+	
+	 background: rgba(0,0,0,0.5)
+}
 .hotCocoFest {
-	color: #009ca6;
-	font-size: 1.3rem;
+	font-size: 0.5 rem;
+	color: #e6ebf4;
+	
+	
 }
 
 .hotCocoFest:hover {
@@ -101,20 +108,21 @@ p {
 }
 #mainJumbo {
 	background-image: 
-    linear-gradient(
+    /* linear-gradient(
       rgba(0, 0, 0, 0.3),
       rgba(0, 0, 0, 0.3)
-    ),
-    url("../imgs/pancafe.jpg");
+    ), */
+    url("../imgs/EverbeanHomePagePic.png");
 	background-size: cover;
+	background-repeat: no-repeat;
     position: relative;
-	background-position: 50% 25%;
+	background-position: 50% 45%;
 	height:100%;
 	width:100%;
     color: #e6ebf4;
     text-shadow: 1px 1px 2px black;
-    padding-top: 15%;
-    padding-bottom: 15%;
+    padding-top: 0%;
+    padding-bottom: 30%;
 }
 
 #menuJumbo {
