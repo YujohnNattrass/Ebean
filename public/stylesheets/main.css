@@ -80,7 +80,8 @@ footer a:hover {
 .hotCocoText {
 	opacity: 1;
 	color: #edeff2;
-	text-shadow: 2px 2px 4px black
+	text-shadow: 2px 2px 4px black;
+	text-transform: uppercase;
 }
 
 .hotCocoText:hover {
