@@ -103,6 +103,9 @@ body {
 
 }
 
+hr.style1{
+	border-top: 1px solid #8c8b8b;
+}
 .jumBody {
 	font-size: 1.5rem;
 }
@@ -141,6 +144,27 @@ p {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+}
+
+#gcJumbo {
+
+	background-image: 
+    linear-gradient(
+      rgba(0, 0, 0, 0.3),
+      rgba(0, 0, 0, 0.3)
+    ),
+    url("../imgs/GiveThanks.png");
+
+	height:100%;
+	width:100%;
+    color: #e6ebf4;
+    text-shadow: 1px 1px 2px black;
+    padding-top: 15%;
+    padding-bottom: 15%;
+	background-size: cover;
+    position: relative;
+	background-position: center;
+
 }
 
 #menuJumbo {
@@ -221,6 +245,11 @@ p a:hover {
 
 .textColor {
 	color: #413c3c;
+	font-size: 1.15rem;
+}
+
+.gcText {
+	font-size: 1.5
 }
 
 
