@@ -8,6 +8,7 @@ const nodemailer = require('nodemailer');
 require('dotenv').config();
 
 const app = express();
+app.set('port', (process.env.PORT || 5000))
 app.use(express.static(__dirname + "/public"));
 console.log(__dirname);
 // View engine setup
@@ -21,7 +22,8 @@ app.use(flash());
 
 
 
-//contact form
+//contact form REMOVED
+/*
 app.get('/catering', (req, res)=> {
 	res.render('catering.ejs');
 });
@@ -66,6 +68,7 @@ transporter.sendMail(mailOptions, (error, info) => {
       res.redirect('catering');
   });
 });
+*/
 
 
 
@@ -75,14 +78,19 @@ app.get("/", (req, res) => {
 });
 
 app.get('/menu', (req, res) => {
-  res.render('menu.ejs');
+  res.redirect('https://oftendining.com/#s:search.php,menu.php?store_id=7454&view=');
+  // res.render('menu.ejs');
 });
 
-app.get('/love', (req, res) => {
-  res.render('giveLove.ejs');
+//app.get('/love', (req, res) => {
+//  res.render('giveLove.ejs');
+//});
+app.get('/GiveThanks', (req, res) => {
+ res.render('gc.ejs');
 });
 
 
 
-
-app.listen(3000, () => console.log('Server started...'));
+app.listen(app.get('port'), function() {
+ console.log('Server started...'+ app.get('port'));
+})
