@@ -319,4 +319,32 @@ ul.nav-pills a.nav-link.active{
 .menu_link {
 	font-size: 1.25rem;
 }
+
+.hotChocoParaText {
+	line-height: 1.8rem;
+	font-family: "Gotham Narrow";
+}
 /* Closed MENU */
+.healthCareProtocols {
+	max-width: 932px;
+	margin: auto;
+}
+
+@media (min-width: 932px) {
+	.healthCareProtocols {
+	margin: 15px auto;
+}
+}
+
+.healthCareProtocols img {
+	width: 100%;
+}
+
+.safety {
+	margin: 30px auto;
+	text-align: center;
+}
+.safety h1 {
+	font-family: 'Gotham Black';
+	font-size: 3.1rem;
+}
