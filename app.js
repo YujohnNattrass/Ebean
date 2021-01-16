@@ -71,7 +71,6 @@ transporter.sendMail(mailOptions, (error, info) => {
 */
 
 
-
 //contact form end
 app.get("/", (req, res) => {
 	res.render('home.ejs');
@@ -82,9 +81,14 @@ app.get('/menu', (req, res) => {
   // res.render('menu.ejs');
 });
 
-//app.get('/love', (req, res) => {
-//  res.render('giveLove.ejs');
-//});
+app.get('/love', (req, res) => {
+  res.render('giveLove.ejs');
+});
+
+app.get('/safety', (req, res) => {
+  res.render('safety.ejs');
+});
+
 app.get('/GiveThanks', (req, res) => {
  res.render('gc.ejs');
 });
