@@ -73,8 +73,9 @@ footer a:hover {
 	font-family: 'Gotham Black';
 	font-size: 1 rem;
 	color: #edeff2;
-	opacity: 0.7;
-	background-color: #cc4239;
+	opacity: 1;
+	/*opacity: 0.7;*/
+	background-color: #DE222B;
 }
 
 .hotCocoText {
